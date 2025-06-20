@@ -6,3 +6,4 @@ EOF
 
 RUN chmod +x /etc/profile.d/ascend.sh
 ENV LD_LIBRARY_PATH=/usr/local/python3.9.2/lib:/usr/local/Ascend/ascend-toolkit/latest/tools/aml/lib64:/usr/local/Ascend/ascend-toolkit/latest/tools/aml/lib64/plugin:/usr/local/Ascend/ascend-toolkit/latest/lib64:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/opskernel:/usr/local/Ascend/ascend-toolkit/latest/lib64/plugin/nnengine:/usr/local/Ascend/ascend-toolkit/latest/opp/built-in/op_impl/ai_core/tbe/op_tiling/lib/linux/aarch64:/usr/local/Ascend/ascend-toolkit/latest/lib64:/usr/local/Ascend/driver/lib64:/usr/local/Ascend/driver/lib64/common:/usr/local/Ascend/driver/lib64/driver:/usr/local/Ascend/driver/tools/hccn_tool/:/opp/built-in/op_impl/ai_core/tbe/op_tiling/lib/linux/aarch64/:/usr/lib/aarch64-linux-gnu/hdf5/serial:/usr/local/python3.9.2/lib::/usr/local/Ascend/driver/lib64/driver
+
